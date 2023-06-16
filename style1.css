@@ -1,0 +1,17 @@
+@keyframes changeanimate {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: aqua;
+    top: 20%;
+    left: 20%;
+    animation: changeanimate 0.5s ease-in-out infinite alternate;
+}
